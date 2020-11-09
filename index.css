@@ -1,0 +1,106 @@
+*
+{
+    padding: 0%0%;
+    margin:0%0%;
+}
+body
+{
+  
+    background-image: url("../Images/1540010\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#cityname
+{
+    border-color:blue;
+    
+}
+#entercity
+{
+    background-color: white;
+}
+#content
+{
+    background-color: lightslategray;
+}
+.main1
+{
+    text-align: center;
+}
+#div1
+{
+    
+   text-align: center;
+   
+ 
+}
+#heading,#currentdateandtime,#entercity
+{
+    display: inline-block;
+    background-color: white;
+    padding:0%1%;
+    
+
+}
+#footer
+{
+    text-align: center;
+    color:white;
+}
+#button1
+{
+    border-radius: 15px;
+    padding:0%2%;
+}
+
+
+#button1
+{
+    padding:0%3%;
+    border-style: solid;
+    border-width: 2px;
+}
+
+#rankingtable, #rankingtable th, #rankingtable td
+{
+    
+    border-style: solid;
+    border-width: 1px;
+    border-collapse: collapse;
+    text-align: center;
+    margin:auto;
+}
+
+#rankingtable
+{
+width: 90%;
+}
+
+#rankingtable td:hover
+{
+    background-color:black;
+    color:white;
+}
+
+#rankingtable th
+{
+    background-color:#99ccff;
+}
+
+
+@media print 
+{
+    .main1,#content,#footer
+    {
+        text-align: center;
+    }
+    #cityname
+    {
+        border-color: black;
+    }
+    #footer
+    {
+        color:black;
+    }
+}
