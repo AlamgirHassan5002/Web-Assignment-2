@@ -116,7 +116,7 @@ function myfun1(link,check1)
         var check=false;
        
         var request=new XMLHttpRequest();
-        request.open('GET',link,true);
+        request.open("GET",link);
         request.onload=function()
         {
             var obj=JSON.parse(this.response);
